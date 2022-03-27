@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Mini site HTML</title>
+    <style>
+        * {
+            width: auto;
+            margin: 5px;
+            box-sizing: border-box;
+        }
+
+
+
+        header {
+            padding: 5px;
+            margin-top: 20px;
+            background-color: #b5bdcc;
+            color: white;
+            font-style: initial;
+            font-weight: bold;
+            font-size: 24px;
+            letter-spacing: 3px;
+            text-align: center;
+        }
+
+
+        nav {
+            margin: 20px 0px 0px 0px;
+            width: 250px;
+            float: left;
+            position: fixed;
+        }
+
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 10px;
+            text-transform: uppercase;
+            font-weight: bolder;
+            color: white;
+            text-decoration: none;
+            list-style: none;
+            text-align: center;
+        }
+
+
+
+        button:hover,
+        a:hover {
+            background-color: rgb(243, 241, 241);
+            color: black;
+        }
+
+        button {
+            margin-bottom: 15px;
+            width: 180px;
+            height: 30px;
+            border-radius: 5px 5px 5px 5px;
+            border: none;
+            cursor: pointer;
+            background-color: #b5bdcc;
+        }
+
+
+
+        img {
+            padding-bottom: 20px;
+            padding-left: 20px;
+            width: 250px;
+            float: left;
+            margin: 20px 20px 0px 0px;
+            border-left: 1px solid blue;
+        }
+
+        section {
+            margin: 0px 0 40px 0;
+            width: 850px;
+
+            padding-left: 20px;
+            box-sizing: border-box;
+            position: relative;
+            left: 250px;
+        }
+
+        #coils {
+            position: relative;
+            left: 250px;
+        }
+
+
+
+        #paragraf {
+            width: 1000px;
+            margin: 70px 0 0 20px;
+            letter-spacing: 1.5px;
+            word-spacing: 4px;
+            line-height: 40px;
+            box-sizing: border-box;
+
+        }
+
+        footer {
+            font-size: 10px;
+            margin: 0px 0px 0px 280px;
+            font-style: italic;
+            clear: left;
+            border-bottom: 1px solid blue;
+        }
+
+
+
+
+        #fcolor {
+            color: black;
+            font-size: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Pupin coils</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><button><a href="mainpage.html">Main Page</a></button></li>
+            <li><button><a href="early-life-and-education.html">Early life and ducation</a></button></li>
+            <li><button><a href="literary-work.html">Literary work</a></button></li>
+            <li><button><a href="pupin-coils.html">Pupin coils</a></button></li>
+        </ul>
+    </nav>
+    <div id="coils"><img width="250px" src="./assets/pupin-1916.jpg" alt="Pupin coils"></div>
+
+    <section>
+
+
+        <div id="paragraf">
+            <p> Pupin's 1899 patent for loading coils, archaically called "Pupin coils", followed closely on the
+                pioneering
+                work
+                of the English physicist and mathematician Oliver Heaviside, which predates Pupin's patent by some seven
+                years.
+                The importance of the patent was made clear when the American rights to it were acquired by American
+                Telephone &
+                Telegraph (AT&T), making him wealthy. Although AT&T bought Pupin's patent, they made little use of it,
+                as
+                they
+                already had their own development in hand led by George Campbell and had up to this point been
+                challenging
+                Pupin
+                with Campbell's own patent. AT&T were afraid they would lose control of an invention which was immensely
+                valuable due to its ability to greatly extend the range of long distance telephones and especially
+                submarine
+                ones.
+            </p>
+        </div>
+    </section>
+
+
+    <footer>
+        <a id="fcolor" href="https://de.wikipedia.org/wiki/Mihajlo_Idvorski_Pupin" target="_blank">
+            Mihajlo Idvorski Pupin @wikipedia</a>
+    </footer>
+</body>
+
+</html>
